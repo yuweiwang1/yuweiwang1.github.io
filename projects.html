@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research — Yǔwēi</title>
+  <meta name="description" content="Research projects by Yǔwēi in human factors, in-vehicle informatics, and AV–pedestrian communication.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><polygon points='6,13 9,3 13,11' fill='%23FF9090'/><polygon points='19,11 23,3 26,13' fill='%23FF9090'/><circle cx='16' cy='19' r='11' fill='%23FF9090'/><ellipse cx='12' cy='17' rx='1.5' ry='2' fill='%23FAF7F4'/><ellipse cx='20' cy='17' rx='1.5' ry='2' fill='%23FAF7F4'/><ellipse cx='16' cy='22' rx='1.5' ry='1' fill='%23FFD0D0'/></svg>">
+</head>
+<body>
+
+  <nav>
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-brand">Yǔwēi</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Research</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="3" y1="6" x2="19" y2="6"/>
+          <line x1="3" y1="11" x2="19" y2="11"/>
+          <line x1="3" y1="16" x2="19" y2="16"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+
+      <header class="page-header fade-in">
+        <h1>Research</h1>
+        <p class="subtitle">Six projects across two threads — designing safer, more legible interactions between people and vehicles.</p>
+      </header>
+
+      <!-- Filter -->
+      <div class="filter-bar fade-in" role="group" aria-label="Filter projects by category">
+        <button class="filter-btn active" data-filter="all">All projects</button>
+        <button class="filter-btn" data-filter="informatics">In-vehicle informatics</button>
+        <button class="filter-btn" data-filter="av">AV–pedestrian</button>
+      </div>
+
+      <!-- Project grid -->
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card fade-in" data-category="informatics">
+          <span class="tag tag-primary">In-vehicle informatics</span>
+          <h3 class="project-title">Alert Modality and Response Time in ADAS Interfaces</h3>
+          <p class="project-desc">
+            A mixed-methods user study examining how visual, auditory, and haptic alerts in advanced
+            driver assistance systems affect response time and cognitive workload across varying road
+            complexity levels.
+          </p>
+          <p class="project-meta">User study · N=32 · Published 2024</p>
+          <div class="project-links">
+            <a href="#" class="project-link">Paper</a>
+            <a href="#" class="project-link">Slides</a>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card fade-in" data-category="informatics">
+          <span class="tag tag-primary">In-vehicle informatics</span>
+          <h3 class="project-title">Gaze Allocation in Augmented Reality Head-Up Displays</h3>
+          <p class="project-desc">
+            Eye-tracking study examining how drivers distribute visual attention across AR-HUD information
+            layers while navigating complex urban intersections. Compares layer salience strategies
+            and their effect on situation awareness.
+          </p>
+          <p class="project-meta">Eye-tracking · Driving simulation · In progress</p>
+          <div class="project-links">
+            <a href="#" class="project-link">Preprint</a>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card fade-in" data-category="informatics">
+          <span class="tag tag-primary">In-vehicle informatics</span>
+          <h3 class="project-title">Cognitive Load in Multi-Modal In-Vehicle Systems</h3>
+          <p class="project-desc">
+            Investigating driver cognitive load during concurrent use of navigation guidance, ADAS
+            notifications, and infotainment across three road environments. Proposes an adaptive
+            information filtering model.
+          </p>
+          <p class="project-meta">Experiment · EEG · Published 2023</p>
+          <div class="project-links">
+            <a href="#" class="project-link">Paper</a>
+            <a href="#" class="project-link alt">Data</a>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card fade-in" data-category="av">
+          <span class="tag tag-secondary">AV–pedestrian</span>
+          <h3 class="project-title">Expressive Deceleration Profiles for AV–Pedestrian Communication</h3>
+          <p class="project-desc">
+            Designing and evaluating human-like deceleration motion patterns that communicate yielding
+            intent to pedestrians without relying on external displays. Explores the threshold between
+            legible and uncanny vehicle motion.
+          </p>
+          <p class="project-meta">Motion design · Pedestrian study · Published 2024</p>
+          <div class="project-links">
+            <a href="#" class="project-link">Paper</a>
+            <a href="#" class="project-link alt">Video</a>
+          </div>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="project-card fade-in" data-category="av">
+          <span class="tag tag-secondary">AV–pedestrian</span>
+          <h3 class="project-title">eHMI Icon Comprehension Across Cultural Contexts</h3>
+          <p class="project-desc">
+            Cross-cultural comparison of how pedestrians from five countries interpret external
+            human-machine interface symbols displayed by autonomous vehicles at unsignalised crossings.
+            Identifies universal signals and culturally-specific breakdowns.
+          </p>
+          <p class="project-meta">Cross-cultural study · N=180 · In progress</p>
+          <div class="project-links">
+            <a href="#" class="project-link">Preprint</a>
+          </div>
+        </article>
+
+        <!-- Project 6 -->
+        <article class="project-card fade-in" data-category="av">
+          <span class="tag tag-secondary">AV–pedestrian</span>
+          <h3 class="project-title">Trust Calibration in Repeated Urban AV Encounters</h3>
+          <p class="project-desc">
+            A longitudinal scenario-based study exploring how trust in autonomous vehicles develops,
+            stabilises, and breaks down across repeated pedestrian encounters in urban environments.
+            Proposes a three-phase trust calibration model.
+          </p>
+          <p class="project-meta">Longitudinal study · Mixed methods · Published 2023</p>
+          <div class="project-links">
+            <a href="#" class="project-link">Paper</a>
+            <a href="#" class="project-link alt">Data</a>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="paw-divider" style="margin-top:4rem;">
+        <div class="paw-divider-line"></div>
+        <div class="paw-divider-icon">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true"><ellipse cx="7" cy="9.5" rx="3" ry="2.5"/><ellipse cx="2.5" cy="5.5" rx="1.4" ry="1.2"/><ellipse cx="5.5" cy="3.5" rx="1.4" ry="1.2"/><ellipse cx="8.5" cy="3.5" rx="1.4" ry="1.2"/><ellipse cx="11.5" cy="5.5" rx="1.4" ry="1.2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true"><ellipse cx="7" cy="9.5" rx="3" ry="2.5"/><ellipse cx="2.5" cy="5.5" rx="1.4" ry="1.2"/><ellipse cx="5.5" cy="3.5" rx="1.4" ry="1.2"/><ellipse cx="8.5" cy="3.5" rx="1.4" ry="1.2"/><ellipse cx="11.5" cy="5.5" rx="1.4" ry="1.2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true"><ellipse cx="7" cy="9.5" rx="3" ry="2.5"/><ellipse cx="2.5" cy="5.5" rx="1.4" ry="1.2"/><ellipse cx="5.5" cy="3.5" rx="1.4" ry="1.2"/><ellipse cx="8.5" cy="3.5" rx="1.4" ry="1.2"/><ellipse cx="11.5" cy="5.5" rx="1.4" ry="1.2"/></svg>
+        </div>
+        <div class="paw-divider-line"></div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-cat">
+        <svg width="38" height="34" viewBox="0 0 38 34" fill="none" aria-hidden="true">
+          <path d="M26 26 Q34 21 32 14 Q30 9 26 12" stroke="#FF9090" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.45"/>
+          <ellipse cx="16" cy="25" rx="10" ry="7.5" fill="#FF9090" opacity="0.18"/>
+          <circle cx="16" cy="13" r="7.5" fill="#FF9090" opacity="0.18"/>
+          <polygon points="9,10 8,3 14,9" fill="#FF9090" opacity="0.32"/>
+          <polygon points="18,9 24,3 23,10" fill="#FF9090" opacity="0.32"/>
+          <path d="M12 12 Q14 10.5 16 12" stroke="#3D3A30" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.32"/>
+          <path d="M16 12 Q18 10.5 20 12" stroke="#3D3A30" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.32"/>
+        </svg>
+        <span class="footer-copy">Yǔwēi &nbsp;·&nbsp; 2026</span>
+      </div>
+      <nav aria-label="Footer navigation">
+        <ul style="display:flex; gap:1.5rem; list-style:none;">
+          <li><a href="about.html" style="font-size:0.78rem; color:var(--text-muted);">About</a></li>
+          <li><a href="projects.html" style="font-size:0.78rem; color:var(--text-muted);">Research</a></li>
+          <li><a href="contact.html" style="font-size:0.78rem; color:var(--text-muted);">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
